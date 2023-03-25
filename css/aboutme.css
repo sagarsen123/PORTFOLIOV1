@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+
+#aboutMe{
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  background: lightblue;
+}
+
+#amContentBox{
+  display: flex;
+  max-width: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutBlock{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tickImg{
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutBlock img{
+  width: 4rem;
+  display: block;
+  margin: auto;
+}
+
+.AboutText{
+  font-size: 1.5rem;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  line-height: 3rem;
+  font-family: 'Shantell Sans', cursive;
+}
+
+
+#aboutimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+
+}

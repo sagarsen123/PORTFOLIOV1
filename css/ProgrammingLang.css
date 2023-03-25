@@ -1,0 +1,78 @@
+/* #programming{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #7583cf;
+  padding: 2rem 10rem;
+} */
+#programming{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(47deg,#182777,#50567a);
+    padding: 2rem 10rem;
+}
+
+#programming h1{
+  font-size: 5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+#cardEncloser{
+  display: flex;
+    ALIGN-ITEMS: CENTER;
+    JUSTIFY-CONTENT: CENTER;
+    flex-direction: ROW;
+    FLEX-WRAP: WRAP;
+}
+
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(135, 186, 231);
+  margin: 1rem;
+  min-height: 14rem;
+  border-radius: 22px;
+}
+
+.langName h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.pBlock{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.langName{
+  background-color: black;
+}
+
+.pBlock img{
+
+      padding: 1rem;
+      height: 5rem;
+      margin: 1rem;
+}
+
+
+@media (max-width:1128px)
+{
+  .langName h2{
+    font-size: 2rem;
+  }
+}
+
+

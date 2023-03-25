@@ -1,0 +1,85 @@
+#educationheading{
+  text-align: center;
+  font-size: 5rem;
+  padding: 1.2rem ;
+  background-color: lightblue;
+  color: white;
+}
+
+#education{
+  background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.eduCard{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 20px;
+  outline: 2px solid black;
+}
+
+.eduIBox img{
+    width: 10rem;
+}
+
+.eduCard h2{
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.eduimg{
+  width: 2rem;
+
+}
+
+.eduContent{
+  display: flex;
+    flex-direction: row;
+    padding: 0.2rem;
+    align-items: center;
+    justify-content: start;
+    text-align: justify;
+    font-size: 1.6rem;
+    margin: 0.6rem;
+}
+
+
+@media(max-width:400px){
+  .eduCard h2{
+    font-size: 1.4rem;
+  }
+  #educationheading{
+    font-size: 3rem;
+  }
+
+  .eduCard{
+    font-size: 1rem;
+  }
+
+  .eduContent p{
+    font-size: 1rem;
+  }
+}
+
+.goUp{
+  position: -webkit-sticky;
+  bottom: 5rem;
+  left: 5rem;
+}
+
+
+.goUp a img{
+  width: 8rem;
+}
